@@ -3,7 +3,7 @@ This project is created as part of a technical assessment for Deloitte. It is a 
 
 # Prerequisites
 Before you begin, ensure you have the following installed on your machine:
-- Node.js (and npm or yarn)
+- Node.js (v18.18.0)
 
 # Installing a Dependency
 Before running the application or building it for production, you'll need to install the project dependencies. This step is essential to ensure that all required packages are downloaded and ready to use.
