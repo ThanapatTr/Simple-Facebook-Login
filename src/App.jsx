@@ -1,16 +1,24 @@
 /* global FB */ // This comment inform ESLint that 'FB' is a global variable
 
-import React, { useEffect } from 'react';
+import React, { useEffect, useRef } from 'react';
 import { useNavigate } from 'react-router-dom';
 
 const App = () => {
+  const isMountedRef = useRef(false);
   const navigate = useNavigate();
+  const facebookAppId = process.env.REACT_APP_FACEBOOK_APP_ID;
 
   useEffect(() => {
+    // use to stop fetching twice when this page is loaded
+    if (!isMountedRef.current) {
+      isMountedRef.current = true;
+    } else {
+      return;
+    }
     const loadFacebookSDK = () => {
       window.fbAsyncInit = function () {
         FB.init({
-          appId: '1112907959859459',
+          appId: facebookAppId,
           cookie: true,
           xfbml: true,
           version: 'v19.0'
@@ -27,7 +35,7 @@ const App = () => {
     };
 
     loadFacebookSDK();
-  },[]);
+  }, []);
 
   const statusChangeCallback = (response) => {
     console.log(response);
@@ -57,7 +65,7 @@ const App = () => {
         <div className="w-full md:w-1/2 text-white p-8 rounded-lg">
           <div className="max-w-md text-center">
             <h2 className="text-4xl mb-4 font-bold">Welcome!</h2>
-            <p className="text-lg">Currently normal login is not available. Please use Facebook to login.</p>
+            <p className="text-lg">Currently normal login is not available. Please use Facebook to sign in.</p>
           </div>
         </div>
 

@@ -7,6 +7,8 @@ const LandingPage = () => {
   const isMountedRef = useRef(false);
   const navigate = useNavigate();
   const [userData, setUserData] = useState(null);
+  const facebookAppId = process.env.REACT_APP_FACEBOOK_APP_ID;
+
 
   useEffect(() => {
     // use to stop fetching twice when this page is loaded
@@ -20,7 +22,7 @@ const LandingPage = () => {
       console.log("initilized facebookSDK");
       window.fbAsyncInit = function () {
         FB.init({
-          appId: '1112907959859459',
+          appId: facebookAppId,
           cookie: true,
           xfbml: true,
           version: 'v19.0'
