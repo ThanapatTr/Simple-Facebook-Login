@@ -36,7 +36,7 @@ After generating a production build using npm run build, you can deploy the appl
    ### `serve -s build -l 4000`
   
 - Automated Deployment:
-  Use deployment tools like Netlify or Vercel that can automatically deploy from your Git repository (GitHub, GitLab, Bitbucket) whenever changes are pushed to the main branch.
+  Use deployment tools like Netlify or Vercel that can automatically deploy from your Git repository (GitHub, GitLab, Bitbucket).
 
 # Demo
 
