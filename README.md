@@ -20,6 +20,24 @@ Use the following command to creates a build directory with a production build o
 ### `npm run build`
 
 # Deploy
+After generating a production build using npm run build, you can deploy the application using following methods:
+
+- Static Server:
+  Use the following command to install serve:
+  
+  ### `npm install -g serve`
+
+  After the installation if completed, use the follwing command to serve your static site on the port 3000:
+
+  ### `serve -s build`
+
+  The port can be adjusted using the -l or --listen flags:
+
+   ### `serve -s build -l 4000`
+  
+- Automated Deployment:
+  Use deployment tools like Netlify or Vercel that can automatically deploy from your Git repository (GitHub, GitLab, Bitbucket) whenever changes are pushed to the main branch.
+
 
 
 # Demo
