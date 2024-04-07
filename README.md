@@ -38,8 +38,6 @@ After generating a production build using npm run build, you can deploy the appl
 - Automated Deployment:
   Use deployment tools like Netlify or Vercel that can automatically deploy from your Git repository (GitHub, GitLab, Bitbucket) whenever changes are pushed to the main branch.
 
-
-
 # Demo
 
 https://github.com/ThanapatTr/Simple-Facebook-Login/assets/116283565/ce2910b9-050c-45ef-8baa-ee24e4180745
@@ -76,6 +74,8 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
+## Troubleshooting
+
 ### `npm run build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+If the production build fails to minify, please refer to the [troubleshooting documentation](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify) for detailed steps on resolving this issue.
