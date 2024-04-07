@@ -3,8 +3,7 @@ This project is created as part of a technical assessment for Deloitte. It is a 
 
 # Prerequisites
 Before you begin, ensure you have the following installed on your development machine:
-Node.js (and npm or yarn)
-Git (optional but recommended for version control)
+- Node.js (and npm or yarn)
 
 ## Available Scripts
 
