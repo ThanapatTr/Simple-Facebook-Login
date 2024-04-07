@@ -10,9 +10,12 @@ Use the following command to creates a build directory with a production build o
 
 ### `npm run build`
 
+# Deploy
 
 
+# Demo
 
+https://github.com/ThanapatTr/Simple-Facebook-Login/assets/116283565/ce2910b9-050c-45ef-8baa-ee24e4180745
 
 
 ## Available Scripts
