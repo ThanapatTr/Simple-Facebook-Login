@@ -42,6 +42,9 @@ After generating a production build using npm run build, you can deploy the appl
 
 https://github.com/ThanapatTr/Simple-Facebook-Login/assets/116283565/ce2910b9-050c-45ef-8baa-ee24e4180745
 
+# Sequence diagram
+
+![Facebook login sequence diagram](https://github.com/ThanapatTr/Simple-Facebook-Login/assets/116283565/9f877fdf-3ddd-44ea-8937-077d01f9bc25)
 
 ## Available Scripts
 
