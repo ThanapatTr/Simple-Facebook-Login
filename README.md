@@ -2,7 +2,7 @@
 This project is created as part of a technical assessment for Deloitte. It is a React web application developed to showcase Facebook login integration.
 
 # Prerequisites
-Before you begin, ensure you have the following installed on your development machine:
+Before you begin, ensure you have the following installed on your machine:
 - Node.js (and npm or yarn)
 
 ## Available Scripts
