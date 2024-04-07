@@ -5,6 +5,16 @@ This project is created as part of a technical assessment for Deloitte. It is a 
 Before you begin, ensure you have the following installed on your machine:
 - Node.js (and npm or yarn)
 
+# Production Build
+Use the following command to creates a build directory with a production build of the app:
+
+### `npm run build`
+
+
+
+
+
+
 ## Available Scripts
 
 In the project directory, you can run:
